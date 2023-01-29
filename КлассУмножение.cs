@@ -17,6 +17,7 @@ public class Class1
         int Chislo2 = Convert.ToInt32(Console.ReadLine());
         Otvet = Chislo1 * Chislo2;
         Console.WriteLine($"Результат умножения чисел:{Otvet}");
-        Console.ReadKey();з
+        Console.WriteLine($"Результат деления чисел:{Chislo1 / Chislo2}");
+        Console.ReadKey();
     }
 }
