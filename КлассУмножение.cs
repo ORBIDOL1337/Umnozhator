@@ -18,7 +18,6 @@ public class Class1
         Otvet = Chislo1 * Chislo2;
         Console.WriteLine($"Результат умножения чисел:{Otvet}");
         Console.WriteLine($"Результат деления чисел:{Chislo1 / Chislo2}");
-        Console.WriteLine($"Результат Сложения чисел:{Chislo1 + Chislo2}");
         Console.ReadKey();
     }
 }
